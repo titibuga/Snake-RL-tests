@@ -3,11 +3,9 @@
 from board import Board
 from snake import Snake
 from point import Point
+from misc import *
 
-
-
-b = Board()
-print(b)
 snake = Snake()
+b = Board(snake)
+print(b)
 print(snake)
-
